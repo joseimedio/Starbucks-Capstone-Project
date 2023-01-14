@@ -13,11 +13,11 @@ Jupyter Notebook, main code file.
 images contained in the instructions of the notebook
 #### data
 rar folder containing the json files. It needs to be extracted.
-##### portfolio.json 
+##### \data\portfolio.json 
 containing offer ids and meta data about each offer (duration, type, etc.)
-##### profile.json 
+##### \data\profile.json 
 demographic data for each customer
-##### transcript.json 
+##### \data\transcript.json 
 records for transactions, offers received, offers viewed, and offers completed
 
 
@@ -38,17 +38,20 @@ Calculate current date to compare with value on became_member_on column.
 
 
 ## Comments on the process
-
-
-
-## Results
-
-
+The following process was followed to complete this project:
+#### Step 1: Data exploration
+Take a look at the datasets and plan actions for later steps.
+#### Step 2: Data wrangling
+Clean datasets and modify some field.
+#### Step 3: Data processing
+Generate new data by treating and comparing the data already provided.
+#### Step 4: Data analysis
+Draw conclusions.
 
 ## Conclusion
-
+All demographic groups had very similar preferences. There were three offers that performed much better than the rest. Also, the amount of money spent by a user turned out to be more relevant than anything else.
 
 ## Possible improvements
-
+Adding Step 5, which would consist on a supervised learning model. 
 
 
